@@ -5,14 +5,12 @@
     grid-row-gap: 30px ;
     margin-top: 15px;
 }
-.card-img{
-    width: 10%;
-    border-radius: 50px;
-}
-
 .card img{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+.card :hover{
+    border-radius: 0px;
 }
 .card h2{
     font-size: 16px;
