@@ -10,7 +10,13 @@
 .side-video-list img{
     flex-basis: 49%;
     width: 50%;
+    border-radius: 10px;
 }
+.side-video-list img:hover{
+    border-radius: 0px;
+}
+
+
 .vid-info{
     flex-basis: 49%;
 }
